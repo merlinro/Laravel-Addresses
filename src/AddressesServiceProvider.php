@@ -7,8 +7,6 @@ class AddressesServiceProvider extends ServiceProvider
     protected $migrations = [
         'CreateAddressesTable' => 'create_addresses_table',
         'CreateContactsTable'  => 'create_contacts_table',
-
-        'AddStreetExtraToAddresses' => 'add_street_extra_to_addresses_table',
     ];
 
     /**
