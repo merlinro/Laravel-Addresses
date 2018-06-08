@@ -36,6 +36,7 @@ class CreateAddressesTable extends Migration
             $table->increments('id');
 
             $table->string('street',    60)->nullable();
+            $table->string('street_extra', 60)->nullable();
             $table->string('city',      60)->nullable();
             $table->string('state',     60)->nullable();
             $table->string('post_code', 10)->nullable();
